@@ -1,0 +1,117 @@
+@font-face {
+    font-family: "Cursed Time";
+    src: url(fonts/CursedTimerULiL.ttf);
+}
+
+body {
+    background: #1B244A;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #EEEEEE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0.5em auto;
+}
+
+h2 {
+    margin: 0 auto 0.3em auto;
+    font-size: 5.625rem;
+    font-family: "Cursed Time";
+    width: 155px;
+    height: 120px;
+    background: #080001;
+    color: #F94F6D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #8bb7e6;
+    font-size: 3rem;
+}
+
+p {
+    font-size: 3rem;
+    font-family: "Cursed Time";
+    color: #f0dade;
+    margin: 0 auto;
+    padding: 0.2em 0.4em;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background-color: #1B244A;
+}
+
+button {
+    width: 45px;
+    height: 45px;
+    border: #9AABD8 solid 2px;
+    border-radius: 5px;
+    color: #9AABD8;
+    font-size: 1.125rem;
+    font-family: "Cursed Time";
+    background-color: #1B244A;
+}
+
+.winnerText {
+    text-align: center;
+    margin: 3em auto;
+    max-width: 800px;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5em auto 5em;
+    max-width: 800px;
+}
+
+.board {
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.extraButtons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5em;
+    max-width: 800px;
+    margin: auto;
+}
+
+.startGame,
+.newGame {
+    width: 200px;
+}
+
+.startGame {
+    background-color: rgb(30, 162, 30);
+    color: #222b55;
+}
+
+.newGame {
+    background-color: aqua;
+    color: #222b55;
+}
+
+.winner {
+    color: #080001;
+    background: #29e455;
+}
+
+.loser {
+    color: #080001;
+    background: #a5022d;
+}
+
+.equal {
+    background: #080001;
+    color: #F94F6D;
+}
